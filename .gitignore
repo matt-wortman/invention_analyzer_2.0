@@ -1,0 +1,46 @@
+# Virtual Environment
+venv/
+env/
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# API Keys and Config
+config.json
+.env
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Log Files
+*.log
+logs/
+
+# Export Files
+exports/
+temp_results/
+
+# Test Output
+test_output/
+*.xml
+*.json
+
+# Backup Files
+*.bak
+*~

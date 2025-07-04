@@ -1,0 +1,35 @@
+# Academic Publication Search Tool - Dependencies
+# Core scientific libraries
+biopython>=1.80
+pandas>=1.5.0
+requests>=2.28.0
+
+# Fuzzy string matching for institution resolution
+rapidfuzz>=2.0.0
+
+# Configuration and data handling
+pyyaml>=6.0
+
+# GUI framework (Qt6)
+PySide6>=6.4.0
+
+# Optional: Enhanced XML processing (recommended for better full text parsing)
+beautifulsoup4>=4.11.0
+lxml>=4.9.0
+
+# Development and testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Note: The following are included with Python standard library:
+# - sqlite3 (database)
+# - json (data serialization)
+# - xml.etree.ElementTree (XML processing)
+# - logging (application logging)
+# - typing (type hints)
+# - datetime (date/time handling)
+# - re (regular expressions)
+# - time (timing functions)
+# - os, sys (system interfaces)
+# - tempfile (temporary files)
+# - hashlib (hashing)
