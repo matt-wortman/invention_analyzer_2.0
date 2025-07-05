@@ -7,6 +7,7 @@ A simple, reliable tool to help Cincinnati Children's Hospital researchers ident
 ### 1. Setup Virtual Environment
 ```bash
 python3 -m venv venv
+source venv/bin/activate
 ```
 
 ### 2. Activate GUI Environment (WSL/Linux)
