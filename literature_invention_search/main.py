@@ -2,6 +2,7 @@ import argparse
 import csv
 import os
 from datetime import datetime
+from typing import Optional
 
 try:
     # Imports for package execution
